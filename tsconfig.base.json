@@ -20,7 +20,10 @@
       }
     ],
     "paths": {
-      "@demo/shared": ["tools/demo/index.ts"]
+      "@demo/shared": ["tools/demo/index.ts"],
+      "@esolution/*": ["packages/*"],
+      "@esolution/nativescript-sentry": ["packages/nativescript-sentry/index.d.ts"],
+      "@esolution/nativescript-sentry/angular": ["packages/nativescript-sentry/angular/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

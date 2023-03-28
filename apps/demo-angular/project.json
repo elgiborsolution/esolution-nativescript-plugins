@@ -35,7 +35,8 @@
     "android": {
       "executor": "@nativescript/nx:build",
       "options": {
-        "platform": "android"
+        "platform": "android",
+        "noHmr": true
       },
       "dependsOn": [
         {
