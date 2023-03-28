@@ -1,4 +1,4 @@
-- [@esolution/nativescript-sentry](packages/nativescript-sentry/README.md)
+- [esolution-nativescript-sentry](packages/nativescript-sentry/README.md)
 
 # How to use?
 
