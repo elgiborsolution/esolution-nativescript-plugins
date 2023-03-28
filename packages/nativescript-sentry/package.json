@@ -1,6 +1,6 @@
 {
-  "name": "@esolution/nativescript-sentry",
-  "version": "1.0.1",
+  "name": "esolution-nativescript-sentry",
+  "version": "1.0.0",
   "description": "Sentry.io NativeScript plugin.",
   "main": "index",
   "typings": "index.d.ts",
