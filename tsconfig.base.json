@@ -21,11 +21,7 @@
     ],
     "paths": {
       "@demo/shared": ["tools/demo/index.ts"],
-      "@nativescript/nativescript-camera-face-detection": ["packages/nativescript-camera-face-detection/index.d.ts"],
-      "@nativescript/nativescript-camera-face-detection/angular": ["packages/nativescript-camera-face-detection/angular/index.ts"],
       "@elgibor-solution/*": ["packages/*"],
-      "@elgibor-solution/nativescript-camera-face-detection": ["packages/nativescript-camera-face-detection/index.d.ts"],
-      "@elgibor-solution/nativescript-camera-face-detection/angular": ["packages/nativescript-camera-face-detection/angular/index.ts"],
       "@elgibor-solution/fcm-custom-sound": ["packages/fcm-custom-sound/index.d.ts"],
       "@elgibor-solution/fcm-custom-sound/angular": ["packages/fcm-custom-sound/angular/index.ts"]
     }
