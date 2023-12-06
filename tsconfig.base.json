@@ -7,9 +7,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noEmitHelpers": true,
-    "target": "ES2020",
-    "module": "ESNext",
-    "lib": ["ESNext", "dom"],
+    "target": "es2017",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
@@ -20,7 +20,10 @@
       }
     ],
     "paths": {
-      "@demo/shared": ["tools/demo/index.ts"]
+      "@demo/shared": ["tools/demo/index.ts"],
+      "@esolution/*": ["packages/*"],
+      "@esolution/nativescript-sentry": ["packages/nativescript-sentry/index.d.ts"],
+      "@esolution/nativescript-sentry/angular": ["packages/nativescript-sentry/angular/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

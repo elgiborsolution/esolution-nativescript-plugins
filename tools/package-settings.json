@@ -1,0 +1,16 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/febriarief/esolution-plugins.git"
+  },
+  "keywords": ["NativeScript", "JavaScript", "TypeScript", "iOS", "Android"],
+  "author": {
+    "name": "Elgibor Solution",
+    "email": "febri@elgibor-solution.com"
+  },
+  "bugs": {
+    "url": "https://github.com/febriarief/esolution-plugins/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/febriarief/esolution-plugins"
+}

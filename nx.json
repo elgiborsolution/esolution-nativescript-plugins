@@ -1,7 +1,17 @@
 {
-  "npmScope": "nativescript",
+  "npmScope": "esolution",
   "affected": {
     "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
   },
   "workspaceLayout": {
     "appsDir": "apps",
@@ -18,18 +28,7 @@
       }
     }
   },
-  "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
-    "sharedGlobals": ["{workspaceRoot}/workspace.json", "{workspaceRoot}/tsconfig.base.json", "{workspaceRoot}/tslint.json", "{workspaceRoot}/nx.json"],
-    "production": ["default", "!{projectRoot}/.eslintrc.json"]
-  },
-  "targetDefaults": {
-    "build": {
-      "inputs": ["production", "^production"]
-    },
-    "lint": {
-      "inputs": ["default", "{workspaceRoot}/.eslintrc.json"]
-    }
+  "cli": {
+    "defaultCollection": "@nrwl/workspace"
   }
 }

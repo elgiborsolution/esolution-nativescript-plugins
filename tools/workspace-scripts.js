@@ -55,12 +55,40 @@ module.exports = {
       },
     },
     '⚙️': {
-      script: `npx cowsay "@nativescript/* packages will keep your ⚙️ cranking"`,
-      description: '_____________  @nativescript/*  _____________',
+      script: `npx cowsay "@esolution/* packages will keep your ⚙️ cranking"`,
+      description: '_____________  @esolution/*  _____________',
     },
     // packages
     // build output is always in dist/packages
-    '@nativescript': {
+    '@esolution': {
+      // @esolution/nativescript-sentry
+      'nativescript-sentry': {
+        build: {
+          script: 'nx run nativescript-sentry:build.all',
+          description: '@esolution/nativescript-sentry: Build',
+        },
+      },
+      // @esolution/nativescript-sentry
+      'nativescript-sentry': {
+        build: {
+          script: 'nx run nativescript-sentry:build.all',
+          description: '@esolution/nativescript-sentry: Build',
+        },
+      },
+      // @esolution/nativescript-sentry
+      'nativescript-sentry': {
+        build: {
+          script: 'nx run nativescript-sentry:build.all',
+          description: '@esolution/nativescript-sentry: Build',
+        },
+      },
+      // @esolution/nativescript-sentry
+      'nativescript-sentry': {
+        build: {
+          script: 'nx run nativescript-sentry:build.all',
+          description: '@esolution/nativescript-sentry: Build',
+        },
+      },
       'build-all': {
         script: 'nx run-many --target=build.all --all',
         description: 'Build all packages',
@@ -71,8 +99,24 @@ module.exports = {
       description: '_____________  Focus (VS Code supported)  _____________',
     },
     focus: {
+      'nativescript-sentry': {
+        script: 'nx run nativescript-sentry:focus',
+        description: 'Focus on @esolution/nativescript-sentry',
+      },
+      'nativescript-sentry': {
+        script: 'nx run nativescript-sentry:focus',
+        description: 'Focus on @esolution/nativescript-sentry',
+      },
+      'nativescript-sentry': {
+        script: 'nx run nativescript-sentry:focus',
+        description: 'Focus on @esolution/nativescript-sentry',
+      },
+      'nativescript-sentry': {
+        script: 'nx run nativescript-sentry:focus',
+        description: 'Focus on @esolution/nativescript-sentry',
+      },
       reset: {
-        script: 'nx g @nativescript/plugin-tools:focus-packages',
+        script: 'nx g @esolution/plugin-tools:focus-packages',
         description: 'Reset Focus',
       },
     },
