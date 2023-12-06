@@ -1,9 +1,12 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": ".",
+    // "baseUrl": ".",
     "paths": {
-      "@esolution/*": ["../../packages/*"]
+      "@elgibor-solution/*": [
+        // "../../packages/*"
+        "packages/*"
+      ]
     }
   }
 }

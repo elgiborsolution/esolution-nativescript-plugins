@@ -5,7 +5,7 @@
   "repository": "<fill-your-repository-here>",
   "dependencies": {
     "@nativescript/core": "file:../../node_modules/@nativescript/core",
-    "@esolution/nativescript-sentry": "file:../../packages/nativescript-sentry"
+    "@elgibor-solution/fcm-custom-sound": "file:../../packages/fcm-custom-sound"
   },
   "devDependencies": {
     "@nativescript/android": "~8.2.0",

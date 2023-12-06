@@ -21,9 +21,9 @@
     ],
     "paths": {
       "@demo/shared": ["tools/demo/index.ts"],
-      "@esolution/*": ["packages/*"],
-      "@esolution/nativescript-sentry": ["packages/nativescript-sentry/index.d.ts"],
-      "@esolution/nativescript-sentry/angular": ["packages/nativescript-sentry/angular/index.ts"]
+      "@elgibor-solution/*": ["packages/*"],
+      "@elgibor-solution/fcm-custom-sound": ["packages/fcm-custom-sound/index.d.ts"],
+      "@elgibor-solution/fcm-custom-sound/angular": ["packages/fcm-custom-sound/angular/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

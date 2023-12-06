@@ -2,7 +2,7 @@
   "main": "./src/main.ts",
   "dependencies": {
     "@nativescript/core": "file:../../node_modules/@nativescript/core",
-    "@esolution/nativescript-sentry": "file:../../dist/packages/nativescript-sentry"
+    "@elgibor-solution/fcm-custom-sound": "file:../../dist/packages/fcm-custom-sound"
   },
   "devDependencies": {
     "@nativescript/android": "~8.2.0",

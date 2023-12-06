@@ -1,2 +1,2 @@
 export * from './utils';
-export * from './nativescript-sentry';
+export * from './fcm-custom-sound';

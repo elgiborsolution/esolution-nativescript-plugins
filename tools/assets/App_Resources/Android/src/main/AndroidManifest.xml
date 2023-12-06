@@ -38,6 +38,5 @@
 			</intent-filter>
 		</activity>
 		<activity android:name="com.tns.ErrorReportActivity"/>
-        <meta-data android:name="io.sentry.dsn" android:value="__DSN__" />
 	</application>
 </manifest>

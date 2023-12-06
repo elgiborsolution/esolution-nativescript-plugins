@@ -55,38 +55,17 @@ module.exports = {
       },
     },
     '⚙️': {
-      script: `npx cowsay "@esolution/* packages will keep your ⚙️ cranking"`,
-      description: '_____________  @esolution/*  _____________',
+      script: `npx cowsay "@elgibor-solution/* packages will keep your ⚙️ cranking"`,
+      description: '_____________  @elgibor-solution/*  _____________',
     },
     // packages
     // build output is always in dist/packages
-    '@esolution': {
-      // @esolution/nativescript-sentry
-      'nativescript-sentry': {
+    '@elgibor-solution': {
+      // @elgibor-solution/fcm-custom-sound
+      'fcm-custom-sound': {
         build: {
-          script: 'nx run nativescript-sentry:build.all',
-          description: '@esolution/nativescript-sentry: Build',
-        },
-      },
-      // @esolution/nativescript-sentry
-      'nativescript-sentry': {
-        build: {
-          script: 'nx run nativescript-sentry:build.all',
-          description: '@esolution/nativescript-sentry: Build',
-        },
-      },
-      // @esolution/nativescript-sentry
-      'nativescript-sentry': {
-        build: {
-          script: 'nx run nativescript-sentry:build.all',
-          description: '@esolution/nativescript-sentry: Build',
-        },
-      },
-      // @esolution/nativescript-sentry
-      'nativescript-sentry': {
-        build: {
-          script: 'nx run nativescript-sentry:build.all',
-          description: '@esolution/nativescript-sentry: Build',
+          script: 'nx run fcm-custom-sound:build.all',
+          description: '@elgibor-solution/fcm-custom-sound: Build',
         },
       },
       'build-all': {
@@ -99,24 +78,12 @@ module.exports = {
       description: '_____________  Focus (VS Code supported)  _____________',
     },
     focus: {
-      'nativescript-sentry': {
-        script: 'nx run nativescript-sentry:focus',
-        description: 'Focus on @esolution/nativescript-sentry',
-      },
-      'nativescript-sentry': {
-        script: 'nx run nativescript-sentry:focus',
-        description: 'Focus on @esolution/nativescript-sentry',
-      },
-      'nativescript-sentry': {
-        script: 'nx run nativescript-sentry:focus',
-        description: 'Focus on @esolution/nativescript-sentry',
-      },
-      'nativescript-sentry': {
-        script: 'nx run nativescript-sentry:focus',
-        description: 'Focus on @esolution/nativescript-sentry',
+      'fcm-custom-sound': {
+        script: 'nx run fcm-custom-sound:focus',
+        description: 'Focus on @elgibor-solution/fcm-custom-sound',
       },
       reset: {
-        script: 'nx g @esolution/plugin-tools:focus-packages',
+        script: 'nx g @elgibor-solution/plugin-tools:focus-packages',
         description: 'Reset Focus',
       },
     },

@@ -1,4 +1,4 @@
-- [esolution-nativescript-sentry](packages/nativescript-sentry/README.md)
+- [@elgibor-solution/fcm-custom-sound](packages/fcm-custom-sound/README.md)
 
 # How to use?
 

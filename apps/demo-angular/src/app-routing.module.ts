@@ -7,7 +7,7 @@ import { HomeComponent } from './home.component';
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'nativescript-sentry', loadChildren: () => import('./plugin-demos/nativescript-sentry.module').then((m) => m.NativescriptSentryModule) },
+  { path: 'fcm-custom-sound', loadChildren: () => import('./plugin-demos/fcm-custom-sound.module').then((m) => m.FcmCustomSoundModule) },
 ];
 
 @NgModule({
