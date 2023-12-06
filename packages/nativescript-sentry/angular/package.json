@@ -1,0 +1,6 @@
+{
+  "name": "@esolution/nativescript-sentry-angular",
+  "devDependencies": {
+    "@esolution/nativescript-sentry": "file:../"
+  }
+}
