@@ -1,0 +1,35 @@
+{
+  "name": "@elgibor-solution/fcm-custom-sound",
+  "version": "1.0.0",
+  "description": "Custom notification sound of FCM",
+  "main": "index",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "ios": "6.0.0",
+      "android": "6.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elgiborsolution/esolution-nativescript-plugins.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "iOS",
+    "Android"
+  ],
+  "author": {
+    "name": "Febri Arief",
+    "email": "febriarief6661@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/elgiborsolution/esolution-nativescript-plugins/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/elgiborsolution/esolution-nativescript-plugins",
+  "readmeFilename": "README.md",
+  "bootstrapper": "@nativescript/plugin-seed"
+}

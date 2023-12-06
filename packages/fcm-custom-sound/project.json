@@ -1,0 +1,65 @@
+{
+  "name": "fcm-custom-sound",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "packages/fcm-custom-sound",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/fcm-custom-sound",
+        "tsConfig": "packages/fcm-custom-sound/tsconfig.json",
+        "packageJson": "packages/fcm-custom-sound/package.json",
+        "main": "packages/fcm-custom-sound/index.d.ts",
+        "assets": [
+          "packages/fcm-custom-sound/*.md",
+          "packages/fcm-custom-sound/index.d.ts",
+          "LICENSE",
+          {
+            "glob": "**/*",
+            "input": "packages/fcm-custom-sound/platforms/",
+            "output": "./platforms/"
+          }
+        ],
+        "dependsOn": [
+          {
+            "target": "build.all",
+            "projects": "dependencies"
+          }
+        ]
+      }
+    },
+    "build.all": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["node tools/scripts/build-finish.ts fcm-custom-sound"],
+        "parallel": false
+      },
+      "outputs": ["dist/packages/fcm-custom-sound"],
+      "dependsOn": [
+        {
+          "target": "build.all",
+          "projects": "dependencies"
+        },
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ]
+    },
+    "focus": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["nx g @nativescript/plugin-tools:focus-packages fcm-custom-sound"],
+        "parallel": false
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["packages/fcm-custom-sound/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

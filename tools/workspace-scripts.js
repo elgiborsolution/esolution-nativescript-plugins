@@ -55,12 +55,19 @@ module.exports = {
       },
     },
     '⚙️': {
-      script: `npx cowsay "@nativescript/* packages will keep your ⚙️ cranking"`,
-      description: '_____________  @nativescript/*  _____________',
+      script: `npx cowsay "@elgibor-solution/* packages will keep your ⚙️ cranking"`,
+      description: '_____________  @elgibor-solution/*  _____________',
     },
     // packages
     // build output is always in dist/packages
-    '@nativescript': {
+    '@elgibor-solution': {
+      // @elgibor-solution/fcm-custom-sound
+      'fcm-custom-sound': {
+        build: {
+          script: 'nx run fcm-custom-sound:build.all',
+          description: '@elgibor-solution/fcm-custom-sound: Build',
+        },
+      },
       'build-all': {
         script: 'nx run-many --target=build.all --all',
         description: 'Build all packages',
@@ -71,8 +78,12 @@ module.exports = {
       description: '_____________  Focus (VS Code supported)  _____________',
     },
     focus: {
+      'fcm-custom-sound': {
+        script: 'nx run fcm-custom-sound:focus',
+        description: 'Focus on @elgibor-solution/fcm-custom-sound',
+      },
       reset: {
-        script: 'nx g @nativescript/plugin-tools:focus-packages',
+        script: 'nx g @elgibor-solution/plugin-tools:focus-packages',
         description: 'Reset Focus',
       },
     },

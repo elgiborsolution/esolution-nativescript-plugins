@@ -1,9 +1,12 @@
 {
-	"extends": "../../tsconfig.base.json",
-	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"@nativescript/*": ["../../packages/*"]
-		}
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    // "baseUrl": ".",
+    "paths": {
+      "@elgibor-solution/*": [
+        // "../../packages/*"
+        "packages/*"
+      ]
+    }
   }
 }
