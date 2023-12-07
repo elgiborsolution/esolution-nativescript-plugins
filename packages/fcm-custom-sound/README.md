@@ -12,7 +12,7 @@ ns plugin add @elgibor-solution/fcm-custom-sound
 
 import { customSound, CustomSoundOptions } from '@elgibor-solution/fcm-custom-sound';
 
-const options: CustomSoundOptions = [
+const options: CustomSoundOptions[] = [
     { channelId: 'channel_1', audio: 'notif' },
     { channelId: 'channel_2', audio: 'notif2' }
 ];
