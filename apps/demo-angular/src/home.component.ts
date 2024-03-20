@@ -9,5 +9,8 @@ export class HomeComponent {
     {
       name: 'fcm-custom-sound',
     },
+    {
+      name: 'nativescript-multiselect',
+    },
   ];
 }

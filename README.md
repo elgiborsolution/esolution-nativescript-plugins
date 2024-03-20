@@ -1,4 +1,5 @@
 - [@elgibor-solution/fcm-custom-sound](packages/fcm-custom-sound/README.md)
+- [@elgibor-solution/nativescript-multiselect](packages/nativescript-multiselect/README.md)
 
 # How to use?
 

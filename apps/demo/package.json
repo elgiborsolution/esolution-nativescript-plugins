@@ -5,7 +5,8 @@
   "repository": "<fill-your-repository-here>",
   "dependencies": {
     "@nativescript/core": "file:../../node_modules/@nativescript/core",
-    "@elgibor-solution/fcm-custom-sound": "file:../../packages/fcm-custom-sound"
+    "@elgibor-solution/fcm-custom-sound": "file:../../packages/fcm-custom-sound",
+    "@elgibor-solution/nativescript-multiselect": "file:../../packages/nativescript-multiselect"
   },
   "devDependencies": {
     "@nativescript/android": "~8.2.0",
