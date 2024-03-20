@@ -68,6 +68,13 @@ module.exports = {
           description: '@elgibor-solution/fcm-custom-sound: Build',
         },
       },
+      // @elgibor-solution/nativescript-multiselect
+      'nativescript-multiselect': {
+        build: {
+          script: 'nx run nativescript-multiselect:build.all',
+          description: '@elgibor-solution/nativescript-multiselect: Build',
+        },
+      },
       'build-all': {
         script: 'nx run-many --target=build.all --all',
         description: 'Build all packages',
@@ -81,6 +88,10 @@ module.exports = {
       'fcm-custom-sound': {
         script: 'nx run fcm-custom-sound:focus',
         description: 'Focus on @elgibor-solution/fcm-custom-sound',
+      },
+      'nativescript-multiselect': {
+        script: 'nx run nativescript-multiselect:focus',
+        description: 'Focus on @elgibor-solution/nativescript-multiselect',
       },
       reset: {
         script: 'nx g @elgibor-solution/plugin-tools:focus-packages',

@@ -1,23 +1,23 @@
 {
-  "name": "nativescript-sentry",
+  "name": "nativescript-multiselect",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
-  "sourceRoot": "packages/nativescript-sentry",
+  "sourceRoot": "packages/nativescript-multiselect",
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
       "options": {
-        "outputPath": "dist/packages/nativescript-sentry",
-        "tsConfig": "packages/nativescript-sentry/tsconfig.json",
-        "packageJson": "packages/nativescript-sentry/package.json",
-        "main": "packages/nativescript-sentry/index.d.ts",
+        "outputPath": "dist/packages/nativescript-multiselect",
+        "tsConfig": "packages/nativescript-multiselect/tsconfig.json",
+        "packageJson": "packages/nativescript-multiselect/package.json",
+        "main": "packages/nativescript-multiselect/index.d.ts",
         "assets": [
-          "packages/nativescript-sentry/*.md",
-          "packages/nativescript-sentry/index.d.ts",
+          "packages/nativescript-multiselect/*.md",
+          "packages/nativescript-multiselect/index.d.ts",
           "LICENSE",
           {
             "glob": "**/*",
-            "input": "packages/nativescript-sentry/platforms/",
+            "input": "packages/nativescript-multiselect/platforms/",
             "output": "./platforms/"
           }
         ],
@@ -32,10 +32,10 @@
     "build.all": {
       "executor": "nx:run-commands",
       "options": {
-        "commands": ["node tools/scripts/build-finish.ts nativescript-sentry"],
+        "commands": ["node tools/scripts/build-finish.ts nativescript-multiselect"],
         "parallel": false
       },
-      "outputs": ["dist/packages/nativescript-sentry"],
+      "outputs": ["dist/packages/nativescript-multiselect"],
       "dependsOn": [
         {
           "target": "build.all",
@@ -50,14 +50,14 @@
     "focus": {
       "executor": "nx:run-commands",
       "options": {
-        "commands": ["nx g @nativescript/plugin-tools:focus-packages nativescript-sentry"],
+        "commands": ["nx g @nativescript/plugin-tools:focus-packages nativescript-multiselect"],
         "parallel": false
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["packages/nativescript-sentry/**/*.ts"]
+        "lintFilePatterns": ["packages/nativescript-multiselect/**/*.ts"]
       }
     }
   },
